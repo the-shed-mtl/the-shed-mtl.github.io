@@ -249,7 +249,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #224444;
+  color: #fff;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4464,7 +4464,7 @@ textarea.form-control-lg {
 }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 1);
 }
 .navbar-light .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
@@ -11314,9 +11314,31 @@ body:before {
   height: 100%;
   width: 100%;
   background-color: #2a5555;
-  opacity: 0.7;
+  opacity: 0.4;
   z-index: 1;
 }
+
+#bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1!important;
+}
+
+
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://assets.codepen.io/6093409/river.jpg") repeat;
+      background-size: cover;
+    }
+}
+
 
 video.bg-video {
   position: fixed;
@@ -11327,12 +11349,13 @@ video.bg-video {
   width: auto;
   height: auto;
   transform: translateX(-50%) translateY(-50%);
-  z-index: 0;
+  z-index: -1!important;
 }
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("../assets/img/bg-mobile-fallback.jpg") #2a5555 no-repeat center center scroll;
+    /*background: url("../assets/img/bg-mobile-fallback.jpg") #2a5555 no-repeat center center scroll;
+   */
     background-size: cover;
   }
 
@@ -11357,7 +11380,6 @@ video.bg-video {
   left: 0;
   height: 100%;
   width: 100%;
-background: rgb(0,55,136);
 background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, rgba(0,212,255,0) 100%);
 }
 .masthead .masthead-content {
@@ -11421,6 +11443,8 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
   }
 }
 
+/* tres - es about 365 Arts */
+
 .tres {
   position: relative;
   overflow: hidden;
@@ -11440,7 +11464,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
   width: 100%;
   /*background-color: rgba(173, 0, 8, 0.18);*/
 background: rgb(136,0,0);
-background: linear-gradient(90deg, rgba(136,0,0,0.6) 0%, rgba(159,0,0,0.4) 47%, rgba(255,0,0,0) 100%);
+background: linear-gradient(90deg, rgba(136,0,0,0.5) 0%, rgba(159,0,0,0.3) 47%, rgba(255,0,0,0) 100%);
 }
 }
 .tres .tres-content {
@@ -11477,7 +11501,6 @@ background: linear-gradient(90deg, rgba(136,0,0,0.6) 0%, rgba(159,0,0,0.4) 47%, 
 }
 
 
-
 @media (min-width: 992px) {
   .tres {
     height: 100%;
@@ -11509,6 +11532,193 @@ background: linear-gradient(90deg, rgba(136,0,0,0.6) 0%, rgba(159,0,0,0.4) 47%, 
     width: 65vw;
   }
 }
+
+
+/* cuatro - es about The Shed */
+
+.cuatro {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cuatro:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /*background-color: rgba(173, 0, 8, 0.18);*/
+background: rgb(136,0,0, 0);
+background: linear-gradient(90deg, rgba(0, 119, 182,0.5) 0%, rgba(72, 202, 228,0.3) 47%, rgba(173, 232, 244,0) 100%);
+}
+}
+.cuatro .cuatro-content {
+  position: relative;
+  max-width: 45rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+    z-index: 3;
+
+}
+.cuatro .cuatro-content h1, .cuatro .cuatro-content .h1 {
+  font-size: 2.5rem;
+}
+.cuatro .cuatro-content p {
+  z-index: 3;
+
+  font-size: 1.2rem;
+}
+.cuatro .cuatro-content p strong {
+  font-weight: 700;
+}
+.cuatro .cuatro-content .input-group-newsletter input {
+  height: auto;
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.cuatro .cuatro-content .input-group-newsletter button {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: calc(1rem + 2px);
+}
+
+
+@media (min-width: 992px) {
+  .cuatro {
+    height: 100%;
+    width: 75vw;
+    min-height: 0;
+    padding-bottom: 0;
+  }
+  .cuatro:before {
+    transform: skewX(-9deg);
+    transform-origin: top right;
+  }
+  .cuatro .cuatro-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2rem;
+    padding-right: 9rem;
+            z-index: 3;
+                color: white;
+
+  }
+  .cuatro .cuatro-content h1, .cuatro .cuatro-content .h1 {
+    font-size: 3.5rem;
+  }
+  .cuatro .cuatro-content p {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .cuatro {
+    width: 65vw;
+  }
+}
+
+
+/* cinco - es Production */
+
+.cinco {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cinco:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /*background-color: rgba(173, 0, 8, 0.18);*/
+background: rgb(136,0,0, 0);
+background: linear-gradient(90deg, rgba(229, 56, 59, 0.5) 0%, rgba(239, 129, 130,0.3) 47%, rgba(0, 0, 0,0) 100%);
+}
+}
+.cinco .cinco-content {
+  position: relative;
+  max-width: 45rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+    z-index: 3;
+
+}
+.cinco .cinco-content h1, .cinco .cinco-content .h1 {
+  font-size: 2.5rem;
+}
+.cinco .cinco-content p {
+  z-index: 3;
+
+  font-size: 1.2rem;
+}
+.cinco .cinco-content p strong {
+  font-weight: 700;
+}
+.cinco .cinco-content .input-group-newsletter input {
+  height: auto;
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.cinco .cinco-content .input-group-newsletter button {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: calc(1rem + 2px);
+}
+
+
+@media (min-width: 992px) {
+  .cinco {
+    height: 100%;
+    width: 75vw;
+    min-height: 0;
+    padding-bottom: 0;
+  }
+  .cinco:before {
+    transform: skewX(-9deg);
+    transform-origin: top right;
+  }
+  .cinco .cinco-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2rem;
+    padding-right: 9rem;
+            z-index: 3;
+                color: white;
+
+  }
+  .cinco .cinco-content h1, .cinco .cinco-content .h1 {
+    font-size: 3.5rem;
+  }
+  .cinco .cinco-content p {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .cinco {
+    width: 65vw;
+  }
+}
+
+
+/* n_n */
 
 .social-icons {
   position: relative;
