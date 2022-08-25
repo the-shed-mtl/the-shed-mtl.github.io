@@ -4062,7 +4062,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   font-family: Marsden-Ct-Medium;
   letter-spacing: .2rem;
-  src: url("Marsden-Ct-Medium.ttf");
+  src: url("../Marsden-Ct-Medium.ttf");
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
@@ -11341,7 +11341,7 @@ body:before {
   font-size: 4rem;
   letter-spacing: .9rem!important;
     font-family: Marsden-Ct-Medium;
-  src: url("Marsden-Ct-Medium.ttf");
+  src: url("../Marsden-Ct-Medium.ttf");
 
 }
 
@@ -11417,7 +11417,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
   font-size: 4rem;
   letter-spacing: .9rem!important;
     font-family: Marsden-Ct-Medium;
-  src: url("Marsden-Ct-Medium.ttf");
+  src: url("../Marsden-Ct-Medium.ttf");
 
 }
 .masthead .masthead-content p {
@@ -11463,7 +11463,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
   font-size: 4rem;
   letter-spacing: .9rem!important;
     font-family: Marsden-Ct-Medium;
-  src: url("Marsden-Ct-Medium.ttf");
+  src: url("../Marsden-Ct-Medium.ttf");
 
 }
 
@@ -11551,7 +11551,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
   font-size: 4rem;
   letter-spacing: .9rem!important;
     font-family: Marsden-Ct-Medium;
-  src: url("Marsden-Ct-Medium.ttf");
+  src: url("../Marsden-Ct-Medium.ttf");
 
 }
 
@@ -11598,7 +11598,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
   font-size: 4rem;
   letter-spacing: .9rem!important;
     font-family: Marsden-Ct-Medium;
-  src: url("Marsden-Ct-Medium.ttf");
+  src: url("../Marsden-Ct-Medium.ttf");
 }
 }
 
