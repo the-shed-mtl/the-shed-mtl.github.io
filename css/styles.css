@@ -11340,7 +11340,7 @@ body:before {
 
 
  .masthead .masthead-content h1, .masthead .masthead-content .h1 {
-font-size: 4.5rem!important;
+font-size: 4rem!important;
   letter-spacing: .9rem!important;
     font-family: Marsden-Ct-Regular;
   src: url("Marsden-Ct-Regular.ttf");
@@ -11416,7 +11416,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
 
 
 .masthead .masthead-content h1, .masthead .masthead-content .h1 {
-  font-size: 4.5rem!important;
+  font-size: 4rem!important;
   letter-spacing: .9rem!important;
     font-family: Marsden-Ct-Light;
   src: url("Marsden-Ct-Light.ttf");
@@ -11592,7 +11592,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
     padding-right: 9rem;
   }
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
-font-size: 4.5rem!important;
+font-size: 4rem!important;
   letter-spacing: .9rem!important;
     font-family: Marsden-Ct-Light;
   src: url("Marsden-Ct-Light.ttf");
