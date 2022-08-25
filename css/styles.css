@@ -4060,9 +4060,7 @@ textarea.form-control-lg {
 }
 .navbar-brand {
   padding-top: 0.3125rem;
-  font-family: Marsden-Ct-Medium;
-  letter-spacing: .2rem;
-  src: url("../Marsden-Ct-Medium.ttf");
+      font-family: 'marsden_compactmedium';ttf");
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
@@ -11340,9 +11338,7 @@ body:before {
  .masthead .masthead-content h1, .masthead .masthead-content .h1 {
   font-size: 4rem;
   letter-spacing: .9rem!important;
-    font-family: Marsden-Ct-Medium;
-  src: url("../Marsden-Ct-Medium.ttf");
-
+        src: url('marsden-ct-medium-webfont.woff2') format('woff2'),
 }
 
 
@@ -11416,9 +11412,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
 .masthead .masthead-content h1, .masthead .masthead-content .h1 {
   font-size: 4rem;
   letter-spacing: .9rem!important;
-    font-family: Marsden-Ct-Medium;
-  src: url("../Marsden-Ct-Medium.ttf");
-
+             url('marsden-ct-medium-webfont.woff') format('woff');
 }
 .masthead .masthead-content p {
   font-size: 1.2rem;
@@ -11462,9 +11456,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
   font-size: 4rem;
   letter-spacing: .9rem!important;
-    font-family: Marsden-Ct-Medium;
-  src: url("../Marsden-Ct-Medium.ttf");
-
+        font-weight: normal;
 }
 
 .navbar-nav {
@@ -11550,9 +11542,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
 .masthead .masthead-content h1, .masthead .masthead-content .h1 {
   font-size: 4rem;
   letter-spacing: .9rem!important;
-    font-family: Marsden-Ct-Medium;
-  src: url("../Marsden-Ct-Medium.ttf");
-
+        font-style: normal;
 }
 
 .masthead .masthead-content p {
@@ -11597,9 +11587,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
   font-size: 4rem;
   letter-spacing: .9rem!important;
-    font-family: Marsden-Ct-Medium;
-  src: url("../Marsden-Ct-Medium.ttf");
-}
+    
 }
 
 /* tres - es about 365 Arts */
