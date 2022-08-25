@@ -4060,7 +4060,11 @@ textarea.form-control-lg {
 }
 .navbar-brand {
   padding-top: 0.3125rem;
-      font-family: 'marsden_compactmedium';ttf");
+    font-family: Marsden-Ct-Medium;
+  src: url("Marsden-Ct-Medium.ttf");
+
+  letter-spacing: .9rem!important;
+
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
@@ -11338,7 +11342,7 @@ body:before {
  .masthead .masthead-content h1, .masthead .masthead-content .h1 {
   font-size: 4rem;
   letter-spacing: .9rem!important;
-        src: url('marsden-ct-medium-webfont.woff2') format('woff2'),
+        src: url('marsden-ct-medium-webfont.woff2') format('woff2')
 }
 
 
