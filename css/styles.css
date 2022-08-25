@@ -11335,46 +11335,174 @@ body:before {
 
 
 @media (max-width: 750px) {
-    #background-video { display: none; }
-    body {
-      background: url("https://assets.codepen.io/6093409/river.jpg") repeat;
-      background-size: cover;
-    }
-}
 
 
-video.bg-video {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translateX(-50%) translateY(-50%);
-  z-index: -1!important;
+
+.galleryContainer .slideShowContainer .imageHolder img {
+    width: 162%!important;
+    height: 100%;
 }
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: #23395BAA;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-end;
+}
+
 
 @media (pointer: coarse) and (hover: none) {
+
+.masthead:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%!important;
+    width: auto;
+    background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, rgba(0,212,255,0) 100%);
+}
+
+.galleryContainer .slideShowContainer .imageHolder img {
+    width: 80%;
+    height: 80%;
+}
+
+.masthead {
+    /*position: relative;
+    overflow: hidden;*/
+    height: 120%!important;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.masthead:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: auto;
+background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, rgba(0,212,255,0) 100%);
+}
+.masthead .masthead-content {
+  position: relative;
+  max-width: 40rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.masthead .masthead-content h1, .masthead .masthead-content .h1 {
+  font-size: 2.5rem;
+  letter-spacing: .9rem!important;
+    font-family: Marsden-Ct-Medium;
+  src: url("Marsden-Ct-Medium.ttf");
+}
+.masthead .masthead-content p {
+  font-size: 1.2rem;
+}
+.masthead .masthead-content p strong {
+  font-weight: 700;
+}
+.masthead .masthead-content .input-group-newsletter input {
+  height: auto;
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.masthead .masthead-content .input-group-newsletter button {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: calc(1rem + 2px);
+  }
+}
+
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100%;
+    width: 75vw;
+    min-height: 0;
+    padding-bottom: 0;
+  }
+  .masthead:before {
+    transform: skewX(-9deg);
+    transform-origin: top right;
+  }
+  .masthead .masthead-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2rem;
+    padding-right: 9rem;
+  }
+  .masthead .masthead-content h1, .masthead .masthead-content .h1 {
+    font-size: 3.5rem;
+  }
+  .masthead .masthead-content p {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 1180px) {
+
+.tres {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
   body {
     /*background: url("../assets/img/bg-mobile-fallback.jpg") #2a5555 no-repeat center center scroll;
    */
     background-size: cover;
   }
 
+.masthead:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%!important;
+    width: auto;
+    background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, rgba(0,212,255,0) 100%);
+}
+
   body video {
-    display: none;
+    /*display: none;*/
   }
 }
 
-.masthead {
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.galleryContainer .slideShowContainer .imageHolder img {
+    width: 80%;
+    height: 80%;
 }
+
+.masthead {
+    position: relative;
+    overflow: hidden;
+    height: 100%!important;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .masthead:before {
   content: "";
   position: absolute;
@@ -11416,8 +11544,8 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: calc(1rem + 2px);
+  }
 }
-
 
 
 @media (min-width: 992px) {
@@ -11443,11 +11571,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
   .masthead .masthead-content p {
     font-size: 1.3rem;
   }
-}
-@media (min-width: 1200px) {
-  .masthead {
-    width: 65vw;
-  }
+
 }
 
 /* tres - es about 365 Arts */
