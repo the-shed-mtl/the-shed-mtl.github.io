@@ -11459,9 +11459,9 @@ font-family: 'Oswald', sans-serif;
     padding-right: 9rem;
   }
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
-  font-size: 4rem;
+  font-size: 4rem!important;
   letter-spacing: .9rem!important;
-        font-weight: normal;
+font-family: 'Oswald', sans-serif;
 }
 
 .navbar-nav {
@@ -11545,9 +11545,9 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
   padding-bottom: 5rem;
 }
 .masthead .masthead-content h1, .masthead .masthead-content .h1 {
-  font-size: 4rem;
+  font-size: 4rem!important;
   letter-spacing: .9rem!important;
-        font-style: normal;
+font-family: 'Oswald', sans-serif;
 }
 
 .masthead .masthead-content p {
@@ -11590,10 +11590,9 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
     padding-right: 9rem;
   }
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
-font-size: 4rem!important;
+  font-size: 4rem!important;
   letter-spacing: .9rem!important;
 font-family: 'Oswald', sans-serif;
-
 }
 
 /* tres - es about 365 Arts */
