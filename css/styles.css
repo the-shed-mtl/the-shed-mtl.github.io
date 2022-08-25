@@ -4060,14 +4060,13 @@ textarea.form-control-lg {
 }
 .navbar-brand {
   padding-top: 0.3125rem;
-    font-family: Marsden-Ct-ExtraLight;
-  src: url("Marsden-Ct-ExtraLight.ttf");
+font-family: 'Oswald', sans-serif;
 
   letter-spacing: .5rem!important;
 
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -11342,8 +11341,7 @@ body:before {
  .masthead .masthead-content h1, .masthead .masthead-content .h1 {
 font-size: 4rem!important;
   letter-spacing: .9rem!important;
-    font-family: Marsden-Ct-Regular;
-  src: url("Marsden-Ct-Regular.ttf");
+font-family: 'Oswald', sans-serif;
 
 }
 
@@ -11418,8 +11416,8 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
 .masthead .masthead-content h1, .masthead .masthead-content .h1 {
   font-size: 4rem!important;
   letter-spacing: .9rem!important;
-    font-family: Marsden-Ct-Light;
-  src: url("Marsden-Ct-Light.ttf");
+font-family: 'Oswald', sans-serif;
+
 }
 .masthead .masthead-content p {
   font-size: 1.2rem;
@@ -11594,8 +11592,8 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
 font-size: 4rem!important;
   letter-spacing: .9rem!important;
-    font-family: Marsden-Ct-Light;
-  src: url("Marsden-Ct-Light.ttf");
+font-family: 'Oswald', sans-serif;
+
 }
 
 /* tres - es about 365 Arts */
