@@ -11418,8 +11418,8 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
 .masthead .masthead-content h1, .masthead .masthead-content .h1 {
   font-size: 4.5rem!important;
   letter-spacing: .9rem!important;
-    font-family: Marsden-Ct-Regular;
-  src: url("Marsden-Ct-Regular.ttf");
+    font-family: Marsden-Ct-Light;
+  src: url("Marsden-Ct-Light.ttf");
 }
 .masthead .masthead-content p {
   font-size: 1.2rem;
@@ -11594,8 +11594,8 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 35%, 
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
 font-size: 4.5rem!important;
   letter-spacing: .9rem!important;
-    font-family: Marsden-Ct-Regular;
-  src: url("Marsden-Ct-Regular.ttf");
+    font-family: Marsden-Ct-Light;
+  src: url("Marsden-Ct-Light.ttf");
 }
 
 /* tres - es about 365 Arts */
