@@ -11348,7 +11348,7 @@ font-family: 'Oswald', sans-serif;
 
 
 .galleryContainer .slideShowContainer .imageHolder img {
-    width: 162%!important;
+    width: 100%!important;
     height: 100%;
 }
 
@@ -11473,6 +11473,8 @@ font-family: 'Oswald', sans-serif;
     flex-wrap: wrap;
     align-content: stretch;
     align-items: flex-end;
+}
+
 }
 
 
